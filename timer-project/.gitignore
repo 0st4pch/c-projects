@@ -1,0 +1,37 @@
+# === C Compiler Outputs ===
+# Executables (compiled binaries)
+*.exe
+*.out
+*.app
+*.elf
+timer
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# === Build Directories ===
+# Ignore folders where compiled files are stored
+bin/
+build/
+out/
+obj/
+
+# === Editor & OS Junk Files ===
+# Vim swap and backup files
+*.swp
+*.swo
+*~
+
+# VS Code and JetBrains settings
+.vscode/
+.idea/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
