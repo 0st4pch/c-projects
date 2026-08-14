@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <time.h> // for sleep() function
 #include <unistd.h>
-#includee <stdlib.h>
+#include <stdlib.h>
 
 int main() {
    int hour, minute, second;
    hour = minute = second = 0;
    while(1) {
 	// clearing the output screen
-	system("\330c");
+	system("clear");
 	// printing time in HH : MM : SS format
-	printf("%02d : %02d :%02d", hour, minute, second)
+	printf("%02d : %02d :%02d", hour, minute, second);
 	
 	// clearing the output buffer
-	fflush(stdout)
+	fflush(stdout);
 	// increasing second
 	second ++ ; // increasing second
 
@@ -35,8 +35,8 @@ int main() {
 	}
 
 
-   	sleep(1)
+   	sleep(1);
    }
    
-   return 0
+   return 0;
 }
